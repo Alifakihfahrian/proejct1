@@ -138,14 +138,14 @@ body {
 }
 
 .hobby-list li::before {
-    content: '🎨';
+    content: '🍳';
     margin-right: 10px;
     font-size: 1.2rem;
 }
 
-.hobby-list li:nth-child(2)::before { content: '📚'; }
-.hobby-list li:nth-child(3)::before { content: '🎵'; }
-.hobby-list li:nth-child(4)::before { content: '⚽'; }
+.hobby-list li:nth-child(2)::before { content: '🏸'; }
+.hobby-list li:nth-child(3)::before { content: '🥗'; }
+.hobby-list li:nth-child(4)::before { content: '🕮'; }
 
 .hobby-list li:hover {
     transform: translateX(5px);
