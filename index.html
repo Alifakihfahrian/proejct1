@@ -1,45 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Fakih Jaya</title>
+    <title>Tentang Fakih</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Konsultan IT di Surabaya</h1>
-    <img height="300" src="image/gambar.jpg" alt="Konsultan terbaik di surabaya">
-    <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. 
-    Quisque non elit mauris. Cras euismod, metus ac finibus dll</p>
-    <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. 
-    Quisque non elit mauris. Cras euismod, metus ac finibus dll</p>
-    <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. 
-    Quisque non elit mauris. Cras euismod, metus ac finibus dll</p>
+    <div class="floating-elements">
+        <div class="floating-circle" style="width: 60px; height: 60px; top: 10%; left: 10%; animation-delay: 0s;"></div>
+        <div class="floating-circle" style="width: 40px; height: 40px; top: 20%; right: 15%; animation-delay: 2s;"></div>
+        <div class="floating-circle" style="width: 80px; height: 80px; bottom: 15%; left: 20%; animation-delay: 4s;"></div>
+        <div class="floating-circle" style="width: 50px; height: 50px; bottom: 25%; right: 10%; animation-delay: 1s;"></div>
+    </div>
 
-    <h2>Bidang Jasa</h2>
-    <ol>
-        <li>Pengadaan Barang</li>
-            <ul>
-                <li>Perangkat jaringan</li>
-                <li>Laptop</li>
-                <li>Smartphone</li>
-                <li>Proyektor</li>
-            </ul>
-        <li>Pembuatan software</li>
-            <ul>
-                <li>Data center</li>
-                <li>Sytem by demand</li>
-            </ul>
-        <li>Perbaikan Software</li>
-            <ul>
-                <li>Upgrade fitur</li>
-                <li>Migrasi data</li>
-                <li>Migrasi platform</li>
-                <li>Integrasi data</li>
-            </ul>
-    </ol>
-    <h2>Download</h2>
-    <ul>
-        <li>Format Dokumen Pengajuan<a target="_blank" href="https://www.pens.ac.id/">Download</a></li>
-    </ul>
+    <div class="profile-container">
+        <div class="header">
+            <h1>Muhammad Alif Fakih F</h1>
+        </div>
+        
+        <div class="profile-image">
+            <img src="image/gambar2.jpg" alt="Foto Profil">
+        </div>
+        
+        <div class="profile-content">
+            <div class="info-section">
+                <h2 class="info-title">Usia</h2>
+                <div class="age-info">18 Tahun</div>
+            </div>
+            
+            <div class="info-section">
+                <h2 class="info-title">Hobi</h2>
+                <ul class="hobby-list">
+                    <li>Memasak</li>
+                    <li>Badminton</li>
+                    <li>Makan</li>
+                    <li>Ngaji</li>
+                </ul>
+            </div>
+            
+            <div class="info-section">
+                <h2 class="info-title">Musik Kesukaan</h2>
+                <a href="https://open.spotify.com/playlist/37i9dQZF1Epxgo07KsrCPC?si=d1a6ebb1ebd84ba5" target="_blank" class="music-link">
+                    Dengarkan Playlist Favorit
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
